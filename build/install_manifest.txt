@@ -1,0 +1,4 @@
+/usr/local/lib/libtest.a
+/usr/local/lib/libtest.so
+/usr/local/bin/Test
+/usr/local/include/Test.h

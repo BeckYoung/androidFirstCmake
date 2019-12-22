@@ -1,0 +1,71 @@
+
+{
+	"buildFiles" : [ "/home/xhp/Documents/androidFirstCmake/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/xhp/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xhp/Documents/androidFirstCmake/build --target clean"
+	],
+	"libraries" : 
+	{
+		"Test-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "Test",
+			"buildCommand" : "/home/xhp/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xhp/Documents/androidFirstCmake/build --target Test",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/xhp/Android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/xhp/Android/android-ndk-r16b/sysroot   -isystem /home/xhp/Android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security       -c ",
+					"src" : "/home/xhp/Documents/androidFirstCmake/Test.c",
+					"workingDirectory" : "/home/xhp/Documents/androidFirstCmake/build"
+				}
+			],
+			"output" : "/home/xhp/Documents/androidFirstCmake/build/Test",
+			"toolchain" : "5607535958063288548"
+		},
+		"test-shared-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "test-shared",
+			"buildCommand" : "/home/xhp/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xhp/Documents/androidFirstCmake/build --target test-shared",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/xhp/Android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/xhp/Android/android-ndk-r16b/sysroot -Dtest_shared_EXPORTS  -isystem /home/xhp/Android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "/home/xhp/Documents/androidFirstCmake/Test.c",
+					"workingDirectory" : "/home/xhp/Documents/androidFirstCmake/build"
+				}
+			],
+			"output" : "/home/xhp/Documents/androidFirstCmake/build/libtest.so",
+			"toolchain" : "5607535958063288548"
+		},
+		"test-static-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "test-static",
+			"buildCommand" : "/home/xhp/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/xhp/Documents/androidFirstCmake/build --target test-static",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/home/xhp/Android/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/xhp/Android/android-ndk-r16b/sysroot   -isystem /home/xhp/Android/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security       -c ",
+					"src" : "/home/xhp/Documents/androidFirstCmake/Test.c",
+					"workingDirectory" : "/home/xhp/Documents/androidFirstCmake/build"
+				}
+			],
+			"output" : "/home/xhp/Documents/androidFirstCmake/build/libtest.a",
+			"toolchain" : "5607535958063288548"
+		}
+	},
+	"toolchains" : 
+	{
+		"5607535958063288548" : 
+		{
+			"cCompilerExecutable" : "/home/xhp/Android/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/xhp/Android/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
